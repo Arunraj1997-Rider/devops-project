@@ -11,10 +11,11 @@ pipeline {
 
         stage('Run Container') {
             steps {
-                sh 'docker run -d -p 8080:81 hello-devops'
+                sh 'docker run -d -p 0:81 hello-devops'
             }
         }
     }
 }
+
 
 
