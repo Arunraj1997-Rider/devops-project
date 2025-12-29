@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Clone Repo') {
       steps {
-        git 'https://github.com/your-repo/devops-project.git'
+        git 'https://github.com/Arunraj1997-Rider/devops-project.git'
       }
     }
     stage('Build Docker Image') {
@@ -18,3 +18,4 @@ pipeline {
     }
   }
 }
+
